@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Containers Demo</title>
+</head>
+<body>
+    <p>Hello World</p>
+
+    <script type="application/javascript">
+        function getIP(json) {
+          document.write("IP address: ", json.ip);
+        }
+      </script>
+      
+      <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</body>
+</html>
